@@ -34,7 +34,7 @@
 	        <div class="container">
 		        <nav id="mainmenu" class="mainmenu">
 					<ul>
-						<li class="logo-wrapper"><a href="index.html">Duck Learning</a></li>
+						<li class="logo-wrapper"><a href="index.html"><img src="img/logos/duck.png" alt="Duck learning"></a></li>
 						<li class="active">
 							<a href="index.html">Home</a>
 						</li>
@@ -52,9 +52,9 @@
 						<div class="menuextras" style="float: right; margin-top: 20px;">
 							<li>
 								<div class="dropdown choose-country">
-									<a class="#" data-toggle="dropdown" href="#"><img src="img/flags/gb.png" alt="Great Britain"> UK</a>
+									<a class="#" data-toggle="dropdown" href="#"><img src="img/flags/us.png" alt="United States"> US</a>
 									<ul class="dropdown-menu" role="menu">
-										<li role="menuitem"><a href="#"><img src="img/flags/us.png" alt="United States"> US</a></li>
+										<li role="menuitem"><a href="#"><img src="img/flags/sk.png" alt="Slovakia"> SK</a></li>
 										<li role="menuitem"><a href="#"><img src="img/flags/de.png" alt="Germany"> DE</a></li>
 										<li role="menuitem"><a href="#"><img src="img/flags/es.png" alt="Spain"> ES</a></li>
 									</ul>
@@ -72,17 +72,30 @@
 
         <div id="home_container">
         	
-
 			<div class="row search">
-			  <div class="col-sm-8 col-sm-offset-3">
-			    <form role="form" style="margin-top: 20%; width: 75%;">
+
+			  <div class="col-sm-6 col-sm-offset-2">
+			    <form role="form" style="margin-top: 150px;">
+			    		<h1 style="font-size: 3em; color:#FFFFFF; padding-bottom: 40px;" class="text-center">Duck will help you to learn everything</h1>
+
 			            <div class="input-group">
-			              <input type="text" class="form-control input-sm" style="height: 50px;">
+			              <input type="text" class="form-control input" style="height: 50px;" placeholder="What would you like to learn about?">
 			              <span class="input-group-btn">
-			                <button class="btn btn-default btn-sm" type="submit" style="height: 50px;"><span class="glyphicon glyphicon-search"></span></button>
+			              	<select placeholder="Category" class="form-control input" style="height: 50px; width: 150px;">
+			              		<option>All categories</option>
+								<option>English</option>
+								<option>History</option>
+								<option>Chemistry</option>
+								<option>Mathematics</option>
+								<option>Technology</option>
+				              </select>
+			                <button class="btn btn-default btn" type="submit" style="height: 50px; width: 50px;"><span class="glyphicon glyphicon-search"></span></button>
 			              </span>
 			            </div>
 			    </form>
+			  </div>
+			  <div class="col-sm-3 text-center">
+			  	<img src="img/duck_left.png" alt="Duck will help you to learn everything" style="margin-top: 70px; maring-left: auto; margin-right: auto;">
 			  </div>
 			</div>
 
@@ -194,9 +207,9 @@
 		    		<div class="col-footer col-md-4">
 		    			<h3>Stay Connected</h3>
 		    			<ul class="footer-stay-connected no-list-style">
-		    				<li><a href="#" class="facebook"></a></li>
-		    				<li><a href="#" class="twitter"></a></li>
-		    				<li><a href="#" class="googleplus"></a></li>
+		    				<li><a href="#" class="facebook" style="zoom: 0.6"></a></li>
+		    				<li><a href="#" class="twitter" style="zoom: 0.6"></a></li>
+		    				<li><a href="#" class="googleplus" style="zoom: 0.6"></a></li>
 		    			</ul>
 		    		</div>
 		    	</div>
