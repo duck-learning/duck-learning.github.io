@@ -1690,7 +1690,8 @@ span.color-red {
 --------------------------------------------------------------------------*/
 .section-breadcrumbs {
   background: #222;
-  background: rgba(34, 34, 34, 0.8);
+  background-image: url(../img/homepage-slider/slider-bg4.jpg);
+ /* background: rgba(34, 34, 34, 0.8);*/
   margin-bottom: 10px;
 }
 .section-breadcrumbs h1 {
@@ -1703,7 +1704,8 @@ span.color-red {
 	Footer Style
 --------------------------------------------------------------------------*/
 .footer {
-  background: #222;
+ /* background: #222;*/
+   background-image: url(../img/homepage-slider/slider-bg1.jpg);
   color: #A0A0A0;
   padding: 0 20px 10px 20px;
   border-top: 4px solid #4f8db3;
@@ -1860,7 +1862,7 @@ span.color-red {
   margin: 0 auto 30px auto;
   position: relative;
   height: 400px; 
-  background-image: url(../img/homepage-slider/slider-bg1.jpg);
+  background-image: url(../img/homepage-slider/slider-bg4.jpg);
 }
 
 #sequence {
