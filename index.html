@@ -30,10 +30,19 @@
 
         <!-- Navigation & Logo-->
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	        <div class="container">
-		        <nav id="mainmenu" class="mainmenu">
-					<ul>
-						<li class="logo-wrapper"><a href="index.html"><img src="img/logos/duck.png" alt="Duck learning"></a></li>
+	        <div class="container" style="padding-bottom: 10px;">
+	        	<div class="navbar-header">
+		            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	              	<span class="sr-only">Toggle navigation</span>
+	              	<span class="icon-bar"></span>
+	              	<span class="icon-bar"></span>
+	              	<span class="icon-bar"></span>
+	            	</button>
+	           	 	<div class="logo-wrapper navbar-brand"><a href="index.html"><img src="img/logos/duck.png" alt="Duck learning" style="top: -10px;"></a></div>
+          		</div>
+	        	
+		        <div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
 						<li class="active">
 							<a href="index.html">Home</a>
 						</li>
@@ -66,7 +75,7 @@
 			        		<li><a href="page-login.html">Login</a></li>
 			        	</div>
 					</ul>
-				</nav>
+				</div>
 			</div>
 		</nav>
 
@@ -111,7 +120,7 @@
         <!-- End Homepage Slider -->
 
         <!-- 2 main buttons -->
-        <div class="section">
+        <div class="section hidden-sm hidden-xs">
 	    	<div class="container">
 				<div class="row">
 					<div class="col-md-4 col-sm-offset-2">
